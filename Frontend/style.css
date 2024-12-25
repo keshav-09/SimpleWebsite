@@ -4,10 +4,8 @@
 body {
     margin: 0;
     padding: 0;
-    /* font-family: 'Pixelify Sans', sans-serif; */
 }
 
-/* Navbar Styles */
 nav {
     background: linear-gradient(rgba(172, 118, 118, 0.5), rgba(255, 255, 255, 0.5));
     padding: 30px 30px;
@@ -46,4 +44,48 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #ff7e5f;
+}
+
+.backcover {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    height: 43vh;
+    margin-bottom: 20px;
+}
+
+.image-side {
+    flex: 1;
+    background-color: transparent;
+}
+
+.image-side img {
+    height: 60vh;
+    border-radius: 60px;
+    width: 100%;
+    mix-blend-mode: multiply;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-side:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(214, 205, 214, 0.8), 0 0 25px rgba(161, 151, 161, 0.6);
+}
+
+.color-side-left,
+.color-side-right {
+    background-color: transparent;
+    width: 20%;
+    height: 60vh;
+}
+
+.wellcome {
+    text-align: center;
+    font-size: 65px;
+    font-weight: bold;
+    font-family: "Pixelify Sans", sans-serif;
+    color: black;
+    margin-bottom: 20px;
+    padding-top: 25px;
+    margin-top: 170px;
 }
