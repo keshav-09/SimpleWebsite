@@ -89,6 +89,7 @@ nav ul li a:hover {
     padding-top: 25px;
     margin-top: 170px;
 }
+
 .text1 {
     font-size: 30px;
     padding-left: 35px;
@@ -98,6 +99,7 @@ nav ul li a:hover {
     margin-left: 60px;
     margin-top: 50px;
 }
+
 #game-card {
     /* background-color: black; */
     width: 510px;
@@ -135,103 +137,102 @@ nav ul li a:hover {
 
 #game-card:hover .image-side img {
     transform: scale(1.1);
-   
+
 }
 
 #game-card:hover .overlay {
-    opacity: 0.4; 
-  
+    opacity: 0.4;
+
 }
 
 .card-news {
     background-color: #bb3535;
 }
 
-        /* Footer Styles */
-        .footer {
-            margin-top: 600px;
-            background-color: #000000;
-            color: white;
-            padding: 30px 20px;
-        }
+.footer {
+    margin-top: 600px;
+    background-color: #000000;
+    color: white;
+    padding: 30px 20px;
+}
 
-        .footer .footer-section {
-            flex: 1;
-            min-width: 200px;
-            margin: 10px;
-            display: flex;
-            border-top: 1px solid #444;
-            flex-direction: row;
-        }
+.footer .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    display: flex;
+    border-top: 1px solid #444;
+    flex-direction: row;
+}
 
-        .footer h3 {
-            font-size: 20px;
-            margin-bottom: 15px;
-        }
+.footer h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
 
-        .footer ul {
-            list-style-type: none;
-            padding: 38px;
-            padding-left: 340px;
+.footer ul {
+    list-style-type: none;
+    padding: 38px;
+    padding-left: 340px;
 
-        }
+}
 
-        .footer ul li {
-            margin: 8px 0;
-        }
+.footer ul li {
+    margin: 8px 0;
+}
 
-        .footer ul li a {
-            color: white;
-            text-decoration: none;
-            font-size: 16px;
-            transition: color 0.3s ease;
-        }
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
 
-        .footer ul li a:hover {
-            color: #ff7e5f;
-        }
+.footer ul li a:hover {
+    color: #ff7e5f;
+}
 
-        .footer-bottom {
-            text-align: center;
-            font-size: 14px;
-            margin-top: 20px;
-            border-top: 1px solid #444;
-            padding-top: 10px;
-        }
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
 
-        .logo {
-            color: white;
-            font-size: 28px;
-            font-weight: bold;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            padding: 8px 12px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            transition: all 0.3s ease;
-            max-width: 100%;
-            margin-left: 100px;
-            height: auto;
-            display: inline-block;
-        }
+.logo {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 8px 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+    max-width: 100%;
+    margin-left: 100px;
+    height: auto;
+    display: inline-block;
+}
 
-        .logo img {
-            width: 150px;
-            height: auto;
-        }
+.logo img {
+    width: 150px;
+    height: auto;
+}
 
-        .logo1 img {
-            width: 150px;
-            height: auto;
-        }
+.logo1 img {
+    width: 150px;
+    height: auto;
+}
 
-        .logo:hover {
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-            color: #ff7e5f;
-            transform: scale(1.1);
-        }
+.logo:hover {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: #ff7e5f;
+    transform: scale(1.1);
+}
 
-        .logo1:hover {
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-            color: #ff7e5f;
-            transform: scale(1.1);
-        }
+.logo1:hover {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: #ff7e5f;
+    transform: scale(1.1);
+}
