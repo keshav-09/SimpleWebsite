@@ -49,59 +49,53 @@ nav ul li a:hover {
     color: #ff7e5f;
 }
 
-.backcover {
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin-left: 10%;
+    padding: 0 20px;
+    margin-top: 10%;
+    margin-bottom: 10.6%;
+}
+
+.left-side {
+    flex: 1;
     display: flex;
     justify-content: center;
-    background-color: transparent;
-    height: 43vh;
-    margin-bottom: 20px;
+    align-items: center;
+
 }
 
-.image-side {
+.left-side img {
+    width: 750px;
+}
+
+.right-side {
     flex: 1;
-    background-color: transparent;
+    text-align: left;
 }
 
-.image-side img {
-    height: 60vh;
-    border-radius: 60px;
-    width: 100%;
-    mix-blend-mode: multiply;
-    transition: transform 0.3s ease-in-out;
+.my-portfolio {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 50px;
 }
 
-.image-side:hover img {
-    transform: scale(1.05);
-    box-shadow: 0 0 15px rgba(214, 205, 214, 0.8), 0 0 25px rgba(161, 151, 161, 0.6);
-}
-
-.color-side-left,
-.color-side-right {
-    background-color: transparent;
-    width: 20%;
-    height: 60vh;
-}
-
-.wellcome {
-    text-align: center;
-    font-size: 65px;
+.heading {
+    font-size: 100px;
+    margin: 0;
+    background: linear-gradient(to right, #f76969, #EBEDEE 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 50px;
     font-weight: bold;
-    font-family: "Pixelify Sans", sans-serif;
-    color: black;
-    margin-bottom: 20px;
-    padding-top: 25px;
-    margin-top: 170px;
-}
+    position: relative;
+} 
 
-.text1 {
-    font-size: 30px;
-    padding-left: 35px;
-    font-family: "Rubik Mono One", serif;
-    font-weight: 400;
-    margin-bottom: 30px;
-    margin-left: 60px;
-    margin-top: 50px;
-}
 
 h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
