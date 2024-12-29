@@ -89,6 +89,7 @@ nav ul li a:hover {
     padding-top: 25px;
     margin-top: 170px;
 }
+
 .text1 {
     font-size: 30px;
     padding-left: 35px;
@@ -98,51 +99,109 @@ nav ul li a:hover {
     margin-left: 60px;
     margin-top: 50px;
 }
-#game-card {
-    /* background-color: black; */
-    width: 510px;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    font-family: Arial, sans-serif;
-    transition: transform 0.3s ease-in-out;
-    height: 23vh;
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    background: linear-gradient(to right, #f76969, #EBEDEE 70%);
+
+}
+.main-content {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 7%;
+}
+
+.main-content p {
+    font-family: monospace;
+    line-height: 1.8;
+    font-size: 1.2rem;
+}
+
+.footer {
+    margin-top: 600px;
+    background-color: #000000;
+    color: white;
+    padding: 30px 20px;
+}
+
+.footer .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
     display: flex;
-    float: left;
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    border-top: 1px solid #444;
+    flex-direction: row;
 }
 
-#game-card img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-bottom: 2px solid #444;
-    opacity: 0.8;
+.footer h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
 }
 
-#game-card:hover {
-    transform: translateY(-10px);
-    border-color: aliceblue;
+.footer ul {
+    list-style-type: none;
+    padding: 38px;
+    padding-left: 340px;
+
 }
 
-.card {
-    margin-left: 60px;
+.footer ul li {
+    margin: 8px 0;
 }
 
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
 
-#game-card:hover .image-side img {
+.footer ul li a:hover {
+    color: #ff7e5f;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 8px 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+    max-width: 100%;
+    margin-left: 100px;
+    height: auto;
+    display: inline-block;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+.logo1 img {
+    width: 150px;
+    height: auto;
+}
+
+.logo:hover {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: #ff7e5f;
     transform: scale(1.1);
-   
 }
 
-#game-card:hover .overlay {
-    opacity: 0.4; 
-  
-}
-
-.card-news {
-    background-color: #bb3535;
+.logo1:hover {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: #ff7e5f;
+    transform: scale(1.1);
 }
