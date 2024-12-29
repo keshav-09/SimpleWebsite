@@ -100,53 +100,22 @@ nav ul li a:hover {
     margin-top: 50px;
 }
 
-#game-card {
-    /* background-color: black; */
-    width: 510px;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    font-family: Arial, sans-serif;
-    transition: transform 0.3s ease-in-out;
-    height: 23vh;
-    display: flex;
-    float: left;
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-#game-card img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-bottom: 2px solid #444;
-    opacity: 0.8;
-}
-
-#game-card:hover {
-    transform: translateY(-10px);
-    border-color: aliceblue;
-}
-
-.card {
-    margin-left: 60px;
-}
-
-
-#game-card:hover .image-side img {
-    transform: scale(1.1);
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    background: linear-gradient(to right, #f76969, #EBEDEE 70%);
 
 }
-
-#game-card:hover .overlay {
-    opacity: 0.4;
-
+.main-content {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 7%;
 }
 
-.card-news {
-    background-color: #bb3535;
+.main-content p {
+    font-family: monospace;
+    line-height: 1.8;
+    font-size: 1.2rem;
 }
 
 .footer {
